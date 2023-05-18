@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    height: 100px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+
+  .background {
+    height: 350px;
+    background-image: url("/img/living-image.jpg");
+    background-size: contain;
+    justify-content: center;
+  }
+
+  .game {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    width: 120px;
+    height: 50px;
+    margin: 0 25px;
+    font-size: 20px;
+  }
+ 
+ .computer-hand{
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    gap: 0px 30px;
+    justify-content: center;
+ }
+ 
+ .con-hand{color: darkblue;}
+
+ .syoubu{font-size: 15;color: red;}
+
+  .result {
+    display: flex;
+    margin-top: 30px;
+    display: flex;
+    gap: 0px 100px;
+    /* flex-direction: column; */
+    /* align-items: center; */
+  }
+  
+  #result p {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  #score {
+    font-weight: bold;
+  }
