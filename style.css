@@ -18,7 +18,7 @@ body {
 
   .background {
     height: 350px;
-    background-image: url("/img/living-image.jpg");
+    background-image: url("./img/living-image.jpg");
     background-size: contain;
     justify-content: center;
   }
